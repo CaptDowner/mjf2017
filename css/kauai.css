@@ -1,0 +1,137 @@
+body{
+  background-color: #0000FF;
+}
+
+div#may27-2015, div#may28-2015, div#jun8-2015, div#jun9-2015, div#jun10-2015 {
+  font-family: Arial,sans-serif;
+  font-size: 1.3em;
+  margin-top: 2em;
+  margin-left: 4em;
+  color: white;
+}
+div#jul8-2016 td.lbl, div#may28-2015 td.lbl, div#jun8-2015 td.lbl, div#jun9-2015 td.lbl, div#jun10-2015 td.lbl {
+  text-align: right;
+  font-weight: bold;
+}
+
+div#jul8-2016 td.lbl2{
+  text-align: left;
+  font-weight: bold;
+  color:red;
+}
+h1{
+  color: gold;
+  font-family: Arial;
+  font-weight: 900;
+  font-size: 3.25em;
+  margin-top: 0;
+  margin-bottom:-0.5em;
+}
+
+h2{
+  color: gold;
+  font-family: Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: -1.35em;
+}
+
+h3{
+  color: gold;
+  font-family: Arial, sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-left: 1em;
+  margin-bottom: -26px;
+}
+video{
+  margin-top:1.5em;
+  margin-bottom: 0em;
+}
+table{
+  width: 42%;
+  margin-left: -0.5em;
+  margin-top: 1.35em;
+}
+th {
+  color: gold;
+  font-family: Arial;
+  text-align: left;
+}
+td {
+  color: white;
+  font-family: Arial;
+  vertical-align: top;
+}
+td.title{
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+td.photo1 img{
+  height: 140px;
+  width: 126px;
+  margin-right:1.2em;
+  margin-top: 0em;
+}
+#datez, #datez2, #datez3{
+  margin-bottom: 0px;
+}
+div#datez p {
+font-family: Arial;
+font-size: 0.95em;
+color: white;
+width: 64em;
+margin-left: 2.5em;
+margin-top: 0.25em;
+margin-bottom: 1em;
+}
+h3#hotel{
+  margin-top:0;
+  margin-left: 0;
+}
+p {
+  margin: 0 0 -1.6em 0;
+}
+p a, a{
+  color: white;
+  text-decoration: none;
+}
+p a:hover{
+  color: gold;
+}
+a.layout{
+  font-size: 1.6em;
+  margin: -0.75em 0 -1.5em 0;
+}
+img.kmap {
+  width: 880px;
+  height: 480px;
+  margin-left: 3em;
+  margin-top: 1em;
+  border:4px solid white;
+}
+td.photo1 img{
+  border:10px solid white;
+}
+td.desc p{
+  width: 146em;
+  font-family: Arial;
+  margin-left: -2.5em;
+  padding-left: -4em;
+}
+div#datez td.desc2 p{
+  width: 56em;
+  font-family: Arial;
+  margin-left: 2.5em;
+  padding-left: -4em;
+}
+a img{
+  border:4px solid white;
+  height: 270px;
+  width: 240px;
+  margin-right: -2em;
+  margin-top: 0.75em;
+}

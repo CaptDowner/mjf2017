@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>MJF Schedule</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="./css/kauai.css" />
+<link rel="stylesheet" type="text/css" href="./css/tips.css" />
+<link rel="stylesheet" type="text/css" href="./css/mjf.css" />
+<script src="./js/sorttable.js"></script>
+
+<script type="text/javascript">
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="Back" onClick="history.back()">
+</form> 
+<h3>San Jose Jazz High School All Stars</h3>
+<img src='./images/allstars.jpg' width='640px' height='380px'>
+
+<p>Dr. Aaron Lington, the GRAMMY Award-winning director of Jazz Studies at San Jose State University, leads this group comprised of young musicians from 14 regional schools.</p>
+<p>The SJZ All Stars are earning impressive reviews for their performances while providing some of the Bay Areas’s most gifted high school jazz musicians with advanced opportunities to grow and develop. The audition-based big band, combo and U19s perform throughout the Bay Area and competed at the Next Gen Jazz Festival for the first time in 2016.</p>
+
+<h3>The Monterey Jazz Festival All Star Alumni Combo</h3>
+<p>Paul Contos, MJF Education Dir. has put together one heck of a year end show featuring The MJF All-Star Alumni Combo:</p>
+
+<table>
+<tr><th>Name</th><th>Axe</th><th>School</th></tr>
+<tr><td>Robert Papacica</td><td>guitar</td><td>University of Miami</td></tr>
+<tr><td>Ayana Bradley</td><td>piano</td><td>Wlliamette University</td></tr>
+<tr><td>Akili Bradley</td><td>trumpet</td><td>CSU Monterey</td></tr>
+<tr><td>Isaac de Vera</td><td>guitar</td><td>UCLA</td></tr>
+<tr><td>Ari Freedman</td><td>bass</td><td>University of Chicago</td></tr>
+<tr><td>Marina Panzetta</td><td>alto sax</td><td>UCLA</td></tr>
+<tr><td>David Twohig</td><td>trumpet</td><td>MPC</td></tr>
+</table>
+
+
+</body>
+</html>

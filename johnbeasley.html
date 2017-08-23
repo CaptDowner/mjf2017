@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>John Beasley/Monkestra</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="./css/kauai.css" />
+<link rel="stylesheet" type="text/css" href="./css/tips.css" />
+<link rel="stylesheet" type="text/css" href="./css/mjf.css" />
+<script src="./js/sorttable.js"></script>
+
+<script type="text/javascript">
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="Back" onClick="history.back()">
+</form> 
+<h3>John Beasley, Monk'estra Big Band</h3>
+<img src='./images/monkestra.jpg' width='340px' height='480px'>
+<p>MONK’estra celebrates Monk and other classic compositions, with a contemporary twist incorporating Afro-Cuban rhythms, modern jazz playing, Hip Hop and traditional big band instrumentation, along with originals by Beasley.</p>
+<br/>
+<p>SAXES - Bob Sheppard, Jeff Driskill, Justo Almario, Tom Luer, Tommy Peterson</p>
+<p>TRUMPETS - Bijon Watson, Willie Murillo, Ray Monterio, Brian Swartz, Gabe Johnson</p>
+<p>TROMBONES - Bill Reichenbach, Francisco Torres, Wendell Kelly, Andy Martin, Ryan Dragon</p>
+<p>BASS - Rickey Minor</p>
+<p>DRUMS - Ronald Bruner Jr.</p>
+<p>VOCALS - Guest Artists</p>
+</body>
+</html>

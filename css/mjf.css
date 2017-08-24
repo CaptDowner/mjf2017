@@ -19,6 +19,7 @@ ul, ol{
   color: white;
   font-family: Arial;
   font-size: 1em;
+  margin-bottom: 1em;
 }
 .modalDialog {
   position: fixed;
